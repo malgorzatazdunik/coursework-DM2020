@@ -1,21 +1,16 @@
 # DM2020CSWK
 Data Mining Assignment
 
-This assignment represents 100% of the Data Mining module’s mark. It is composed of Part 1 which is worth 40 marks, and Part 2 which is worth 60 marks. You can work in a team of 2 to 3 students for this assignment. One student per team will be chosen by the team as being the team leader – who will be in charge of coordinating the team’s work, and of submitting the assignment in their account on VLE on behalf of all the team.
-
-
-Note on late submissions process: Late submissions can be considered for approval by the Computing Department only for good reasons and you need to apply (attaching evidence) to the Computing Student Office. The Department can decide to approve an extension of 1 or 2 weeks depending on circumstances. For more enquiries, and to apply, contact the Student Office (Computing Department, 25 St James, email computing@gold.ac.uk
-
 
 PART 1:
 
-This task is based on the Sonar real data seen previously in class. Several objects which can be rock or metal cylinders are scanned on different angles and under different conditions, with sonar signals. 60 measurements are recorded per columns for each object (one record per object) and these are the predictors called A1, A2, …, A60. The label associated with each record contains the letter "R" if the object is a rock and "M" if it is metal cylinder, and this is the outcome variable called Class.
+This task is based on the Sonar real data. Several objects which can be rock or metal cylinders are scanned on different angles and under different conditions, with sonar signals. 60 measurements are recorded per columns for each object (one record per object) and these are the predictors called A1, A2, …, A60. The label associated with each record contains the letter "R" if the object is a rock and "M" if it is metal cylinder, and this is the outcome variable called Class.
 
-Two datasets are provided to you: a training dataset in the sonar_train.csv file, and a test dataset in the sonar_test.csv file.
+Two datasets are provided: a training dataset in the sonar_train.csv file, and a test dataset in the sonar_test.csv file.
 
-You are required to write a Python code implementing the Nearest Neighbour algorithm (not kNN), with the Euclidian and Manhattan distances. Your code will classify each record from the test dataset based on the training dataset, and then will calculate and display the accuracy of the predictions on the test dataset based first on the Euclidian distance and then on the Manhattan distance. Note that in this task you are not to apply a library for the nearest neighbour algorithm but you are to code yourself this simple algorithm. 
+Task: write a Python code implementing the Nearest Neighbour algorithm (not kNN), with the Euclidian and Manhattan distances. The code will classify each record from the test dataset based on the training dataset, and then will calculate and display the accuracy of the predictions on the test dataset based first on the Euclidian distance and then on the Manhattan distance.
 
-The code, comments, explanations and results will be provided in a Jupyter notebook called Part1.
+The code, comments, explanations and results are provided in the Jupyter notebook Part1.
 
 PART 2:
 
@@ -30,8 +25,8 @@ X6 - X11: History of past payment. One tracked the past monthly payment records 
 X12-X17: Amount of bill statement (NT dollar). X12 = amount of bill statement in September, 2005; X13 = amount of bill statement in August, 2005; . . .; X17 = amount of bill statement in April, 2005.
 X18-X23: Amount of previous payment (NT dollar). X18 = amount paid in September, 2005; X19 = amount paid in August, 2005; . . .;X23 = amount paid in April, 2005.
 
-Two datasets are provided to you: a training dataset in the creditdefault_train.csv file, and a test dataset in the creditdefult_test.csv file.
+Two datasets are provided: a training dataset in the creditdefault_train.csv file, and a test dataset in the creditdefult_test.csv file.
 
-Using Python and any relevant libraries, you are required to build the best predictive model by tuning models using cross validation on the training dataset with each of the following algorithms (seen in class): kNN, decision trees, Random Forest, Bagging, Boosting, and SVM. Out of the models tuned with the above algorithms, select the best model and clearly justify your choice, and evaluate its performance on the test set.
+Task: build the best predictive model by tuning models using cross validation on the training dataset with each of the following algorithms (seen in class): kNN, decision trees, Random Forest, Bagging, Boosting, and SVM. Out of the models tuned with the above algorithms, select the best model and clearly justify your choice, and evaluate its performance on the test set.
 
-The coding, comments and explanations will be provided in your Python Jupyter notebook called Part2, which should include also the results. Moreover, for each algorithm mentioned above, include at least 1 chart in the notebook illustrating how the performance of the models vary when you vary the hyper parameters’ values.
+The coding, comments and explanations are provided in the Python Jupyter notebook called Part2, which also includes the results.
